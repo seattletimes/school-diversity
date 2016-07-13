@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_head.html") %>
+    <style>
+      [ng-cloak] {
+      display: none;
+      }
+    </style>
+  </head>
+  <body ng-app="school-diversity">
+
+    <responsive-child>
+      <div ng-cloak ng-controller="diversityController">
+
+        <div class="pick">Select a school:</div>
+
+        <input ng-model="level" type="radio" name="level" value="elementary" id="elementary"> <label class="radio" for="elementary">Elementary</label>
+        <input ng-model="level" type="radio" name="level" value="middle" id="middle"> <label class="radio" for="middle">Middle school</label>
+        <input ng-model="level" type="radio" name="level" value="high" id="high"> <label class="radio" for="high">High school</label>
+        <input ng-model="level" type="radio" name="level" value="other" id="other"> <label class="radio" for="other">Other</label>
+
+        <div class="dropdown">
+          <select ng-model="selectedSchool" ng-options="s['School Name'] for s in shown"></select>
+        </div>
+
+        <div class="name">
+          {{selectedSchool["School Name"]}}
+        </div>
+        <div class="district">
+          {{selectedSchool["District Name"]}}
+        </div>
+        <div class="total">
+          Total students: {{selectedSchool["TOTAL"]}}
+        </div>
+        <div class="index">
+          {{selectedSchool["INDEX"]}}
+        </div>
+
+        <div class="dot" ng-repeat="s in all" style="left: {{s['INDEX']}}%"></div>
+
+        <div class="breakdown">
+          White <div class="bar" style="width: {{selectedSchool['WhitePerc']}}"></div>
+          Asian <div class="bar" style="width: {{selectedSchool['AsianPerc']}}"></div>
+          Hispanic / Latino <div class="bar" style="width: {{selectedSchool['HispanicPerc']}}"></div>
+          Black <div class="bar" style="width: {{selectedSchool['BlackPerc']}}"></div>
+          Two or more races <div class="bar" style="width: {{selectedSchool['2+Perc']}}"></div>
+          Pacific Islander <div class="bar" style="width: {{selectedSchool['PIPerc']}}"></div>
+          American Indian <div class="bar" style="width: {{selectedSchool['NativePerc']}}"></div>
+        </div>
+
+      </div>
+    </responsive-child>
+
+    <script>
+      var districtData = <%= JSON.stringify(csv.school_diversity) %>;
+    </script>
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>
