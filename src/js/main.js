@@ -22,10 +22,8 @@ app.controller("diversityController", ["$scope", function($scope) {
     });
     $scope.selectedSchool = $scope.shown[0];
     var schools = $scope.shown.slice();
-    // schools.filter....
-    // $scope.buckets
-    // $scope.median
-    // $scope.current
+    var indices = schools.map(function(s) { return s["INDEX"] }).sort();
+    $scope.median = indices[Math.floor(indices.length / 2)];
   };
 
   // changeLevel("high");

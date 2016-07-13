@@ -42,6 +42,8 @@
         </div>
 
         <div class="dot" ng-repeat="s in all" style="left: {{s['INDEX']}}%"></div>
+        <div class="median" style="left: {{median}}%"></div>
+        <div class="current" style="left: {{selectedSchool['INDEX']}}%"></div>
 
         <div class="breakdown">
           White <div class="bar" style="width: {{selectedSchool['WhitePerc']}}"></div>
