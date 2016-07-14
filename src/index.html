@@ -47,7 +47,7 @@
             {{selectedSchool["District Name"]}}
           </div>
           <div class="total">
-            Total students: {{selectedSchool["TOTAL"]}}
+            {{selectedSchool["TOTAL"]}} students
           </div>
 
           <div class="index-scale">
@@ -56,8 +56,9 @@
             <div class="median" style="left: {{median}}%">
               <em>Median:</em> {{median}}
             </div>
+            <div class="selected dot" style="left: {{selectedSchool['INDEX']}}%"></div>
             <div class="current" style="left: {{selectedSchool['INDEX']}}%">
-              <strong>{{selectedSchool['INDEX']}}</strong>
+              <div class="strong">{{selectedSchool['INDEX']}}</div>
             </div>
           </div>
 
