@@ -17,16 +17,38 @@ var getColor = function(d) {
 
 app.controller("diversityController", ["$scope", function($scope) {
   $scope.all = districtData;
-  $scope.districts = ["All"];
+
+  $scope.districts = { "all": [], "elementary": [], "middle": [], "high": [], "other": [] };
+
   $scope.all.forEach(function(s) {
-    if ($scope.districts.indexOf(s["District Name"]) < 0) $scope.districts.push(s["District Name"])
+    var type = s["TYPE"].toLowerCase().split(" ");
+    
+    if ($scope.districts.all.indexOf(s["District Name"]) < 0) {
+      $scope.districts.all.push(s["District Name"]);
+    }
+    if ($scope.districts.elementary.indexOf(s["District Name"]) < 0 && type.indexOf("elementary") > -1) {
+      $scope.districts.elementary.push(s["District Name"]);
+    }
+    if ($scope.districts.middle.indexOf(s["District Name"]) < 0 && type.indexOf("middle") > -1) {
+      $scope.districts.middle.push(s["District Name"]);
+    }
+    if ($scope.districts.high.indexOf(s["District Name"]) < 0 && type.indexOf("high") > -1) {
+      $scope.districts.high.push(s["District Name"]);
+    }
+    if ($scope.districts.other.indexOf(s["District Name"]) < 0 && type.indexOf("other") > -1) {
+      $scope.districts.other.push(s["District Name"]);
+    }
   })
-  $scope.districts.sort();
+  for (var d in $scope.districts) {
+    $scope.districts[d].sort();
+  }
   $scope.level = "high";
   $scope.selectedDistrict = "Seattle Public Schools";
 
   var changeLevel = function() {
     var level = $scope.level;
+
+    $scope.districtsShown = $scope.districts[level];
 
     $scope.shown = $scope.all.filter(function(s) {
       var type = s["TYPE"].toLowerCase().split(" ");

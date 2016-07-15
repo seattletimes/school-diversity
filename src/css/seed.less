@@ -84,6 +84,11 @@ body {
     height: 14px;
     margin-top: 2px;
     transition: width 0.6s ease-in-out;
+    min-width: 1px;
+
+    &.thin {
+      min-width: 0px;
+    }
   }
   .percent {
     color: @df-middle-gray;

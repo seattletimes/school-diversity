@@ -16,8 +16,8 @@
 
     <responsive-child>
       <div class="outer" ng-cloak ng-controller="diversityController">
-        <div class="title">How diverse is your school?</div>
-        <div class="chatter">Includes schools in King and Snohomish counties with at least 25 students.</div>
+        <div class="title">How racially diverse is your school?</div>
+        <div class="chatter">This tool ranks every public school in King and Snohomish counties by their diversity index, which measures – on a scale from 0 to 100 – the probability that two randomly chosen students are of a different race.</div>
 
         <div class="input"><input ng-model="level" type="radio" name="level" value="all" id="all"> <label class="radio" for="all">All</label></div>
         <div class="input"><input ng-model="level" type="radio" name="level" value="elementary" id="elementary"> <label class="radio" for="elementary">Elementary</label></div>
@@ -28,7 +28,7 @@
         <div class="pick">Select a district:</div>
 
         <div class="dropdown">
-          <select ng-model="selectedDistrict" ng-options="s for s in districts"></select>
+          <select ng-model="selectedDistrict" ng-options="s for s in districtsShown"></select>
         </div>
 
 
@@ -73,37 +73,37 @@
           <div class="breakdown">
             White 
             <div>
-              <div class="bar" style="width: {{selectedSchool['WhitePerc']}}; background: #2384c6"></div><div ng-if="selectedSchool['WhitePerc'] !== '0.0%'" class="percent">{{selectedSchool['WhitePerc']}}</div>
+              <div class="bar" ng-class="{thin: selectedSchool['WhitePerc'] == '0.0%'}" style="width: {{selectedSchool['WhitePerc']}}; background: #2384c6"></div><div ng-if="selectedSchool['WhitePerc'] !== '0.0%'" class="percent">{{selectedSchool['WhitePerc']}}</div>
               <div class="zero percent" ng-if="selectedSchool['WhitePerc'] == '0.0%'">--</div>
             </div>
             Asian 
             <div>
-              <div class="bar" style="width: {{selectedSchool['AsianPerc']}}; background: #da2128"></div><div ng-if="selectedSchool['AsianPerc'] !== '0.0%'" class="percent">{{selectedSchool['AsianPerc']}}</div>
+              <div class="bar" ng-class="{thin: selectedSchool['AsianPerc'] == '0.0%'}" style="width: {{selectedSchool['AsianPerc']}}; background: #da2128"></div><div ng-if="selectedSchool['AsianPerc'] !== '0.0%'" class="percent">{{selectedSchool['AsianPerc']}}</div>
               <div class="zero percent" ng-if="selectedSchool['AsianPerc'] == '0.0%'">--</div>
             </div>
             Hispanic / Latino 
             <div>
-              <div class="bar" style="width: {{selectedSchool['HispanicPerc']}}; background: #f36f21"></div><div ng-if="selectedSchool['HispanicPerc'] !== '0.0%'" class="percent">{{selectedSchool['HispanicPerc']}}</div>
+              <div class="bar" ng-class="{thin: selectedSchool['HispanicPerc'] == '0.0%'}" style="width: {{selectedSchool['HispanicPerc']}}; background: #f36f21"></div><div ng-if="selectedSchool['HispanicPerc'] !== '0.0%'" class="percent">{{selectedSchool['HispanicPerc']}}</div>
               <div class="zero percent" ng-if="selectedSchool['HispanicPerc'] == '0.0%'">--</div>
             </div>
             Black 
             <div>
-              <div class="bar" style="width: {{selectedSchool['BlackPerc']}}; background: #2a9964"></div><div ng-if="selectedSchool['BlackPerc'] !== '0.0%'" class="percent">{{selectedSchool['BlackPerc']}}</div>
+              <div class="bar" ng-class="{thin: selectedSchool['BlackPerc'] == '0.0%'}" style="width: {{selectedSchool['BlackPerc']}}; background: #2a9964"></div><div ng-if="selectedSchool['BlackPerc'] !== '0.0%'" class="percent">{{selectedSchool['BlackPerc']}}</div>
               <div class="zero percent" ng-if="selectedSchool['BlackPerc'] == '0.0%'">--</div>
             </div>
             Two or more races 
             <div>
-              <div class="bar" style="width: {{selectedSchool['2+Perc']}}; background: #7b5aa6"></div><div ng-if="selectedSchool['2+Perc'] !== '0.0%'" class="percent">{{selectedSchool['2+Perc']}}</div>
+              <div class="bar" ng-class="{thin: selectedSchool['2+Perc'] == '0.0%'}" style="width: {{selectedSchool['2+Perc']}}; background: #7b5aa6"></div><div ng-if="selectedSchool['2+Perc'] !== '0.0%'" class="percent">{{selectedSchool['2+Perc']}}</div>
               <div class="zero percent" ng-if="selectedSchool['2+Perc'] == '0.0%'">--</div>
             </div>
             Native American 
             <div>
-              <div class="bar" style="width: {{selectedSchool['NativePerc']}}; background: #fecd5b"></div><div ng-if="selectedSchool['NativePerc'] !== '0.0%'" class="percent">{{selectedSchool['NativePerc']}}</div>
+              <div class="bar" ng-class="{thin: selectedSchool['NativePerc'] == '0.0%'}" style="width: {{selectedSchool['NativePerc']}}; background: #fecd5b"></div><div ng-if="selectedSchool['NativePerc'] !== '0.0%'" class="percent">{{selectedSchool['NativePerc']}}</div>
               <div class="zero percent" ng-if="selectedSchool['NativePerc'] == '0.0%'">--</div>
             </div>
             Pacific Islander 
             <div>
-              <div class="bar" style="width: {{selectedSchool['PIPerc']}}; background: #4abe9d"></div><div ng-if="selectedSchool['PIPerc'] !== '0.0%'" class="percent">{{selectedSchool['PIPerc']}}</div>
+              <div class="bar" ng-class="{thin: selectedSchool['PIPerc'] == '0.0%'}" style="width: {{selectedSchool['PIPerc']}}; background: #4abe9d"></div><div ng-if="selectedSchool['PIPerc'] !== '0.0%'" class="percent">{{selectedSchool['PIPerc']}}</div>
               <div class="zero percent" ng-if="selectedSchool['PIPerc'] == '0.0%'">--</div>
             </div>
           </div>
