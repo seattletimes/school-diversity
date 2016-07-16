@@ -5,11 +5,11 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17216,Enumclaw School District,King,1523,Special Ed School (Enumclaw),Other,32.4,27,0,1,0,0,22,2,2,0.0%,3.7%,0.0%,0.0%,81.5%,7.4%,7.4%
 2016,31002,Everett School District,Snohomish,5330,Everett Reengagement Academy,Other,57.1,28,0,3,1,0,17,1,6,0.0%,10.7%,3.6%,0.0%,60.7%,3.6%,21.4%
 2016,17407,Riverview School District,King,1756,CLIP,Other,46.8,31,1,1,0,0,22,4,3,3.2%,3.2%,0.0%,0.0%,71.0%,12.9%,9.7%
-2016,17412,Shoreline School District,King,5287,Early Childhood Education,Other,50.2,32,0,2,3,0,22,3,2,0.0%,6.3%,9.4%,0.0%,68.8%,9.4%,6.3%
+2016,17412,Shoreline School District,King,5287,Early Childhood Education (Shoreline),Other,50.2,32,0,2,3,0,22,3,2,0.0%,6.3%,9.4%,0.0%,68.8%,9.4%,6.3%
 2016,31015,Edmonds School District,Snohomish,3818,Maplewood Center,Other,74.2,34,0,6,6,0,12,1,9,0.0%,17.6%,17.6%,0.0%,35.3%,2.9%,26.5%
 2016,31025,Marysville School District,Snohomish,5212,Marysville On-line Move Up Program,Other,49.4,38,0,0,2,0,26,5,5,0.0%,0.0%,5.3%,0.0%,68.4%,13.2%,13.2%
 2016,17403,Renton School District,King,5070,Renton Academy,Other,70.2,38,1,2,16,0,12,3,4,2.6%,5.3%,42.1%,0.0%,31.6%,7.9%,10.5%
-2016,31016,Arlington School District,Snohomish,2277,Arlington Special Educ School,Other,37.5,39,1,1,0,0,30,0,7,2.6%,2.6%,0.0%,0.0%,76.9%,0.0%,17.9%
+2016,31016,Arlington School District,Snohomish,2277,Arlington Special Education School,Other,37.5,39,1,1,0,0,30,0,7,2.6%,2.6%,0.0%,0.0%,76.9%,0.0%,17.9%
 2016,17210,Federal Way School District,King,5255,Gateway to College,Other,64.8,39,0,1,4,0,15,2,17,0.0%,2.6%,10.3%,0.0%,38.5%,5.1%,43.6%
 2016,17411,Issaquah School District,King,1540,Tiger Mountain Community High School,High,35.1,39,0,0,1,0,31,3,4,0.0%,0.0%,2.6%,0.0%,79.5%,7.7%,10.3%
 2016,17210,Federal Way School District,King,1950,Employment Transition Program,Other,70.3,40,0,4,5,0,19,5,7,0.0%,10.0%,12.5%,0.0%,47.5%,12.5%,17.5%
@@ -33,7 +33,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,31025,Marysville School District,Snohomish,1657,Heritage School,High,57.4,77,46,0,0,0,6,18,7,59.7%,0.0%,0.0%,0.0%,7.8%,23.4%,9.1%
 2016,17410,Snoqualmie Valley School District,King,5296,Snoqualmie Parent Partnership Program,Other,20.8,79,0,0,1,0,70,2,6,0.0%,0.0%,1.3%,0.0%,88.6%,2.5%,7.6%
 2016,31015,Edmonds School District,Snohomish,1519,Edmonds eLearning Academy,Other,44.3,81,0,4,0,1,59,11,6,0.0%,4.9%,0.0%,1.2%,72.8%,13.6%,7.4%
-2016,31311,Sultan School District,Snohomish,5152,Columbia Virtual Academy - Sultan,Other,51.2,82,0,0,3,0,54,17,8,0.0%,0.0%,3.7%,0.0%,65.9%,20.7%,9.8%
+2016,31311,Sultan School District,Snohomish,5152,Columbia Virtual Academy (Sultan),Other,51.2,82,0,0,3,0,54,17,8,0.0%,0.0%,3.7%,0.0%,65.9%,20.7%,9.8%
 2016,17001,Seattle Public Schools,King,5406,Bridges Transition,Other,71.8,84,1,25,15,0,33,4,6,1.2%,29.8%,17.9%,0.0%,39.3%,4.8%,7.1%
 2016,31103,Monroe School District,Snohomish,1806,Leaders In Learning,Other,53.2,84,1,1,1,0,53,7,21,1.2%,1.2%,1.2%,0.0%,63.1%,8.3%,25.0%
 2016,17401,Highline School District,King,5172,Puget Sound High School,High,74.8,84,1,6,12,0,24,11,30,1.2%,7.1%,14.3%,0.0%,28.6%,13.1%,35.7%
@@ -42,7 +42,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17414,Lake Washington School District,King,4167,Northstar Middle School,Middle,59.3,90,0,30,0,0,48,9,3,0.0%,33.3%,0.0%,0.0%,53.3%,10.0%,3.3%
 2016,17414,Lake Washington School District,King,1688,Emerson K-12,Elementary Middle High,36.9,92,0,3,0,0,72,9,8,0.0%,3.3%,0.0%,0.0%,78.3%,9.8%,8.7%
 2016,31015,Edmonds School District,Snohomish,1558,Unassigned Special Education,Other,46.3,92,1,6,2,0,66,8,9,1.1%,6.5%,2.2%,0.0%,71.7%,8.7%,9.8%
-2016,17001,Seattle Public Schools,King,5046,Private School Services,Other,60.3,96,0,6,13,0,57,9,11,0.0%,6.3%,13.5%,0.0%,59.4%,9.4%,11.5%
+2016,17001,Seattle Public Schools,King,5046,Private School Services (Seattle),Other,60.3,96,0,6,13,0,57,9,11,0.0%,6.3%,13.5%,0.0%,59.4%,9.4%,11.5%
 2016,17414,Lake Washington School District,King,5057,Renaissance School,Middle,50.2,96,0,16,0,0,65,8,7,0.0%,16.7%,0.0%,0.0%,67.7%,8.3%,7.3%
 2016,17001,Seattle Public Schools,King,3778,South Lake High School,High,66.7,96,1,11,47,1,3,7,26,1.0%,11.5%,49.0%,1.0%,3.1%,7.3%,27.1%
 2016,17410,Snoqualmie Valley School District,King,1502,Two Rivers School,Middle High,24.5,103,3,0,0,0,89,2,9,2.9%,0.0%,0.0%,0.0%,86.4%,1.9%,8.7%
@@ -79,7 +79,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,31401,Stanwood-Camano School District,Snohomish,5004,Saratoga School,Other,24.5,149,1,1,3,0,129,7,8,0.7%,0.7%,2.0%,0.0%,86.6%,4.7%,5.4%
 2016,31201,Snohomish School District,Snohomish,4265,AIM High School,High,34.2,152,1,4,2,0,122,8,15,0.7%,2.6%,1.3%,0.0%,80.3%,5.3%,9.9%
 2016,31002,Everett School District,Snohomish,3903,Special Services (Everett),Other,57.4,153,0,11,8,0,95,18,21,0.0%,7.2%,5.2%,0.0%,62.1%,11.8%,13.7%
-2016,31015,Edmonds School District,Snohomish,3185,Early Childhood Center,Other,73.3,155,2,16,21,0,67,21,28,1.3%,10.3%,13.5%,0.0%,43.2%,13.5%,18.1%
+2016,31015,Edmonds School District,Snohomish,3185,Early Childhood Center (Edmonds),Other,73.3,155,2,16,21,0,67,21,28,1.3%,10.3%,13.5%,0.0%,43.2%,13.5%,18.1%
 2016,17417,Northshore School District,Snohomish,1814,Northshore Networks,Other,39.8,157,1,7,1,0,120,13,15,0.6%,4.5%,0.6%,0.0%,76.4%,8.3%,9.6%
 2016,31332,Granite Falls School District,Snohomish,5171,Crossroads High School,High,45.6,160,7,0,3,0,115,13,22,4.4%,0.0%,1.9%,0.0%,71.9%,8.1%,13.8%
 2016,17417,Northshore School District,Snohomish,1815,Northshore Special Services,Other,66.7,164,1,32,3,0,83,20,25,0.6%,19.5%,1.8%,0.0%,50.6%,12.2%,15.2%
@@ -165,7 +165,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17001,Seattle Public Schools,King,3803,Dearborn Park International School,Elementary,69.3,370,1,159,118,0,26,34,32,0.3%,43.0%,31.9%,0.0%,7.0%,9.2%,8.6%
 2016,17417,Northshore School District,Snohomish,3234,Cottage Lake Elementary,Elementary,43.4,373,0,20,5,0,275,33,40,0.0%,5.4%,1.3%,0.0%,73.7%,8.8%,10.7%
 2016,17401,Highline School District,King,5101,Health Sciences & Human Services,High,73.2,373,1,110,62,1,35,24,140,0.3%,29.5%,16.6%,0.3%,9.4%,6.4%,37.5%
-2016,31025,Marysville School District,Snohomish,5209,Academy of Const and Engineering,High,64.6,374,13,29,5,1,196,37,93,3.5%,7.8%,1.3%,0.3%,52.4%,9.9%,24.9%
+2016,31025,Marysville School District,Snohomish,5209,Academy of Construction and Engineering,High,64.6,374,13,29,5,1,196,37,93,3.5%,7.8%,1.3%,0.3%,52.4%,9.9%,24.9%
 2016,31002,Everett School District,Snohomish,2065,Garfield Elementary School,Elementary,61.2,377,5,9,7,0,208,54,94,1.3%,2.4%,1.9%,0.0%,55.2%,14.3%,24.9%
 2016,17210,Federal Way School District,King,3519,Adelaide Elementary School,Elementary,74.9,379,0,27,36,3,109,76,128,0.0%,7.1%,9.5%,0.8%,28.8%,20.1%,33.8%
 2016,31025,Marysville School District,Snohomish,4150,Marshall Elementary,Elementary,62.0,380,10,11,6,0,211,68,74,2.6%,2.9%,1.6%,0.0%,55.5%,17.9%,19.5%
@@ -203,7 +203,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17001,Seattle Public Schools,King,2181,Alki Elementary School,Elementary,51.9,413,5,9,35,0,277,54,33,1.2%,2.2%,8.5%,0.0%,67.1%,13.1%,8.0%
 2016,17414,Lake Washington School District,King,3675,Frost Elementary,Elementary,65.3,413,3,31,10,1,207,47,114,0.7%,7.5%,2.4%,0.2%,50.1%,11.4%,27.6%
 2016,31103,Monroe School District,Snohomish,4544,Hidden River Middle School,Middle,42.4,413,2,14,2,0,305,23,67,0.5%,3.4%,0.5%,0.0%,73.8%,5.6%,16.2%
-2016,31025,Marysville School District,Snohomish,5211,Intl Sch of Communications,High,60.4,414,11,30,11,1,245,53,63,2.7%,7.2%,2.7%,0.2%,59.2%,12.8%,15.2%
+2016,31025,Marysville School District,Snohomish,5211,International School of Communications,High,60.4,414,11,30,11,1,245,53,63,2.7%,7.2%,2.7%,0.2%,59.2%,12.8%,15.2%
 2016,17001,Seattle Public Schools,King,4065,Orca K-8 School,Elementary Middle,63.1,415,0,22,92,0,226,56,19,0.0%,5.3%,22.2%,0.0%,54.5%,13.5%,4.6%
 2016,17417,Northshore School District,Snohomish,3107,Arrowhead Elementary,Elementary,49.4,416,1,40,13,0,288,42,32,0.2%,9.6%,3.1%,0.0%,69.2%,10.1%,7.7%
 2016,17210,Federal Way School District,King,4426,Green Gables Elementary School,Elementary,69.3,416,2,34,43,0,201,82,54,0.5%,8.2%,10.3%,0.0%,48.3%,19.7%,13.0%
@@ -246,7 +246,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17414,Lake Washington School District,King,4424,Einstein Elementary,Elementary,72.6,440,1,95,26,0,167,31,120,0.2%,21.6%,5.9%,0.0%,38.0%,7.0%,27.3%
 2016,17405,Bellevue School District,King,3036,Eastgate Elementary School,Elementary,66.1,442,2,142,12,0,206,53,27,0.5%,32.1%,2.7%,0.0%,46.6%,12.0%,6.1%
 2016,17408,Auburn School District,King,2659,Terminal Park Elementary School,Elementary,73.2,443,1,26,45,2,173,79,117,0.2%,5.9%,10.2%,0.5%,39.1%,17.8%,26.4%
-2016,17401,Highline School District,King,2765,Beverly Park Elem at Glendale,Elementary,69.5,444,10,56,72,1,57,30,218,2.3%,12.6%,16.2%,0.2%,12.8%,6.8%,49.1%
+2016,17401,Highline School District,King,2765,Beverly Park Elementary at Glendale,Elementary,69.5,444,10,56,72,1,57,30,218,2.3%,12.6%,16.2%,0.2%,12.8%,6.8%,49.1%
 2016,17412,Shoreline School District,King,3489,Parkwood Elementary,Elementary,72.4,445,3,77,44,0,196,45,80,0.7%,17.3%,9.9%,0.0%,44.0%,10.1%,18.0%
 2016,17415,Kent School District,King,4345,Horizon Elementary School (Kent),Elementary,72.0,446,2,66,46,1,201,53,77,0.4%,14.8%,10.3%,0.2%,45.1%,11.9%,17.3%
 2016,17210,Federal Way School District,King,3160,Star Lake Elementary School,Elementary,78.5,446,4,51,64,3,120,82,122,0.9%,11.4%,14.3%,0.7%,26.9%,18.4%,27.4%
@@ -254,7 +254,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17415,Kent School District,King,4466,Sawyer Woods Elementary School,Elementary,45.6,447,0,21,6,0,321,59,40,0.0%,4.7%,1.3%,0.0%,71.8%,13.2%,8.9%
 2016,17210,Federal Way School District,King,4480,Meredith Hill Elementary School,Elementary,71.7,448,1,69,27,0,197,58,96,0.2%,15.4%,6.0%,0.0%,44.0%,12.9%,21.4%
 2016,17401,Highline School District,King,5063,Academy of Citizenship and Empowerment,High,69.2,449,4,59,92,0,45,32,217,0.9%,13.1%,20.5%,0.0%,10.0%,7.1%,48.3%
-2016,31025,Marysville School District,Snohomish,3059,Cascade Elementary,Elementary,68.7,449,11,32,8,0,201,66,131,2.4%,7.1%,1.8%,0.0%,44.8%,14.7%,29.2%
+2016,31025,Marysville School District,Snohomish,3059,Cascade Elementary (Marysville),Elementary,68.7,449,11,32,8,0,201,66,131,2.4%,7.1%,1.8%,0.0%,44.8%,14.7%,29.2%
 2016,31015,Edmonds School District,Snohomish,3409,Cedar Valley Community School,Elementary,64.7,449,2,40,28,0,106,36,237,0.4%,8.9%,6.2%,0.0%,23.6%,8.0%,52.8%
 2016,17415,Kent School District,King,4489,Glenridge Elementary,Elementary,77.1,449,1,143,84,0,113,46,62,0.2%,31.8%,18.7%,0.0%,25.2%,10.2%,13.8%
 2016,31311,Sultan School District,Snohomish,2105,Sultan Middle School,Middle,37.7,451,8,10,1,0,347,7,78,1.8%,2.2%,0.2%,0.0%,76.9%,1.6%,17.3%
@@ -314,14 +314,14 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17001,Seattle Public Schools,King,2063,John Hay Elementary School,Elementary,59.6,500,0,66,21,0,298,76,39,0.0%,13.2%,4.2%,0.0%,59.6%,15.2%,7.8%
 2016,31401,Stanwood-Camano School District,Snohomish,4512,Port Susan Middle School,Middle,28.5,501,7,8,2,0,421,26,37,1.4%,1.6%,0.4%,0.0%,84.0%,5.2%,7.4%
 2016,17412,Shoreline School District,King,3230,Brookside Elementary,Elementary,56.8,502,1,37,16,1,311,93,43,0.2%,7.4%,3.2%,0.2%,62.0%,18.5%,8.6%
-2016,31006,Mukilteo School District,Snohomish,4469,Endeavour Elementary,Elementary,70.0,503,0,170,22,1,201,61,48,0.0%,33.8%,4.4%,0.2%,40.0%,12.1%,9.5%
+2016,31006,Mukilteo School District,Snohomish,4469,Endeavour Elementary (Mukilteo),Elementary,70.0,503,0,170,22,1,201,61,48,0.0%,33.8%,4.4%,0.2%,40.0%,12.1%,9.5%
 2016,31103,Monroe School District,Snohomish,4594,Fryelands Elementary,Elementary,51.0,503,1,10,3,0,328,39,122,0.2%,2.0%,0.6%,0.0%,65.2%,7.8%,24.3%
 2016,17210,Federal Way School District,King,3625,Nautilus K-8 School,Elementary Middle,74.6,503,2,43,47,0,168,86,157,0.4%,8.5%,9.3%,0.0%,33.4%,17.1%,31.2%
 2016,31401,Stanwood-Camano School District,Snohomish,4513,Cedarhome Elementary School,Elementary,28.6,504,2,7,4,0,423,28,40,0.4%,1.4%,0.8%,0.0%,83.9%,5.6%,7.9%
 2016,17001,Seattle Public Schools,King,1620,Pathfinder K-8 School,Elementary Middle,50.9,505,3,29,25,0,343,70,35,0.6%,5.7%,5.0%,0.0%,67.9%,13.9%,6.9%
 2016,17415,Kent School District,King,4293,Ridgewood Elementary School,Elementary,70.7,505,1,115,35,0,228,78,48,0.2%,22.8%,6.9%,0.0%,45.1%,15.4%,9.5%
 2016,17415,Kent School District,King,3388,Covington Elementary School,Elementary,69.7,506,5,68,30,0,239,54,110,1.0%,13.4%,5.9%,0.0%,47.2%,10.7%,21.7%
-2016,31015,Edmonds School District,Snohomish,3607,Hazelwood Elementary,Elementary,70.3,506,3,87,29,1,236,57,93,0.6%,17.2%,5.7%,0.2%,46.6%,11.3%,18.4%
+2016,31015,Edmonds School District,Snohomish,3607,Hazelwood Elementary (Edmonds),Elementary,70.3,506,3,87,29,1,236,57,93,0.6%,17.2%,5.7%,0.2%,46.6%,11.3%,18.4%
 2016,17412,Shoreline School District,King,3231,Highland Terrace Elementary,Elementary,56.6,507,3,57,21,0,319,66,41,0.6%,11.2%,4.1%,0.0%,62.9%,13.0%,8.1%
 2016,17210,Federal Way School District,King,4456,Saghalie Middle School,Middle,74.3,507,5,30,65,1,126,86,194,1.0%,5.9%,12.8%,0.2%,24.9%,17.0%,38.3%
 2016,31004,Lake Stevens School District,Snohomish,4392,Skyline Elementary,Elementary,48.3,507,0,14,8,0,351,52,82,0.0%,2.8%,1.6%,0.0%,69.2%,10.3%,16.2%
@@ -384,7 +384,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,31025,Marysville School District,Snohomish,5350,Quil Ceda Tulalip Elementary,Elementary,72.8,555,206,2,6,0,154,94,93,37.1%,0.4%,1.1%,0.0%,27.7%,16.9%,16.8%
 2016,31025,Marysville School District,Snohomish,2813,Totem Middle School (Marysville),Middle,72.0,555,100,32,7,0,247,84,85,18.0%,5.8%,1.3%,0.0%,44.5%,15.1%,15.3%
 2016,17400,Mercer Island School District,King,3162,Island Park Elementary,Elementary,57.8,556,0,113,4,0,333,78,28,0.0%,20.3%,0.7%,0.0%,59.9%,14.0%,5.0%
-2016,17403,Renton School District,King,3337,Cascade Elementary School,Elementary,79.0,558,6,94,87,0,125,83,163,1.1%,16.8%,15.6%,0.0%,22.4%,14.9%,29.2%
+2016,17403,Renton School District,King,3337,Cascade Elementary School (Renton),Elementary,79.0,558,6,94,87,0,125,83,163,1.1%,16.8%,15.6%,0.0%,22.4%,14.9%,29.2%
 2016,17408,Auburn School District,King,4347,Hazelwood Elementary School (Auburn),Elementary,63.0,558,9,45,5,0,292,47,160,1.6%,8.1%,0.9%,0.0%,52.3%,8.4%,28.7%
 2016,17402,Vashon Island School District,King,4468,Chautauqua Elementary,Elementary,44.1,560,0,4,7,0,406,65,78,0.0%,0.7%,1.3%,0.0%,72.5%,11.6%,13.9%
 2016,17406,Tukwila School District,King,3488,Tukwila Elementary,Elementary,78.3,560,1,120,104,3,85,73,174,0.2%,21.4%,18.6%,0.5%,15.2%,13.0%,31.1%
@@ -398,7 +398,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17405,Bellevue School District,King,3166,Highland Middle School,Middle,72.8,565,0,100,30,0,220,61,154,0.0%,17.7%,5.3%,0.0%,38.9%,10.8%,27.3%
 2016,17414,Lake Washington School District,King,2308,Kirkland Middle School,Middle,40.6,569,4,53,6,0,432,38,36,0.7%,9.3%,1.1%,0.0%,75.9%,6.7%,6.3%
 2016,17405,Bellevue School District,King,3436,Medina Elementary School,Elementary,59.8,569,0,251,2,0,255,43,18,0.0%,44.1%,0.4%,0.0%,44.8%,7.6%,3.2%
-2016,17401,Highline School District,King,3163,Cascade Middle School,Middle,68.1,570,8,118,75,0,56,30,283,1.4%,20.7%,13.2%,0.0%,9.8%,5.3%,49.6%
+2016,17401,Highline School District,King,3163,Cascade Middle School (Highline),Middle,68.1,570,8,118,75,0,56,30,283,1.4%,20.7%,13.2%,0.0%,9.8%,5.3%,49.6%
 2016,31006,Mukilteo School District,Snohomish,4342,Columbia Elementary,Elementary,68.6,572,2,90,25,0,281,92,82,0.3%,15.7%,4.4%,0.0%,49.1%,16.1%,14.3%
 2016,17210,Federal Way School District,King,3582,Valhalla Elementary School,Elementary,71.6,573,3,69,39,0,129,80,253,0.5%,12.0%,6.8%,0.0%,22.5%,14.0%,44.2%
 2016,17401,Highline School District,King,2842,Shorewood Elementary,Elementary,74.8,574,6,99,52,0,220,62,135,1.0%,17.2%,9.1%,0.0%,38.3%,10.8%,23.5%
@@ -510,7 +510,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17411,Issaquah School District,King,2738,Clark Elementary,Elementary,64.7,681,2,149,11,1,359,74,85,0.3%,21.9%,1.6%,0.1%,52.7%,10.9%,12.5%
 2016,17406,Tukwila School District,King,2564,Showalter Middle School,Middle,75.5,684,6,213,130,0,91,37,207,0.9%,31.1%,19.0%,0.0%,13.3%,5.4%,30.3%
 2016,17412,Shoreline School District,King,3674,Albert Einstein Middle School,Middle,68.2,687,7,111,50,1,347,84,87,1.0%,16.2%,7.3%,0.1%,50.5%,12.2%,12.7%
-2016,17411,Issaquah School District,King,4493,Endeavour Elementary School,Elementary,60.6,689,1,235,3,0,357,45,48,0.1%,34.1%,0.4%,0.0%,51.8%,6.5%,7.0%
+2016,17411,Issaquah School District,King,4493,Endeavour Elementary School (Issaquah),Elementary,60.6,689,1,235,3,0,357,45,48,0.1%,34.1%,0.4%,0.0%,51.8%,6.5%,7.0%
 2016,17403,Renton School District,King,3586,Maplewood Heights Elementary School,Elementary,73.2,693,1,205,22,2,246,75,142,0.1%,29.6%,3.2%,0.3%,35.5%,10.8%,20.5%
 2016,17401,Highline School District,King,2927,Sylvester Middle School,Middle,71.7,693,8,132,53,1,147,49,303,1.2%,19.0%,7.6%,0.1%,21.2%,7.1%,43.7%
 2016,17407,Riverview School District,King,4318,Tolt Middle School,Middle,36.1,693,4,19,4,1,546,36,83,0.6%,2.7%,0.6%,0.1%,78.8%,5.2%,12.0%
@@ -538,7 +538,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17408,Auburn School District,King,3169,Olympic Middle School,Middle,72.1,743,36,42,53,2,249,78,283,4.8%,5.7%,7.1%,0.3%,33.5%,10.5%,38.1%
 2016,31004,Lake Stevens School District,Snohomish,3753,Sunnycrest Elementary School (Lake Stevens),Elementary,49.0,745,1,35,20,0,516,82,91,0.1%,4.7%,2.7%,0.0%,69.3%,11.0%,12.2%
 2016,17414,Lake Washington School District,King,4256,Alcott Elementary,Elementary,56.7,751,1,411,4,0,270,35,30,0.1%,54.7%,0.5%,0.0%,36.0%,4.7%,4.0%
-2016,17408,Auburn School District,King,2394,Cascade Middle School,Middle,69.4,751,4,55,78,1,344,68,201,0.5%,7.3%,10.4%,0.1%,45.8%,9.1%,26.8%
+2016,17408,Auburn School District,King,2394,Cascade Middle School (Auburn),Middle,69.4,751,4,55,78,1,344,68,201,0.5%,7.3%,10.4%,0.1%,45.8%,9.1%,26.8%
 2016,31006,Mukilteo School District,Snohomish,2886,Fairmount Elementary,Elementary,75.7,751,5,114,63,0,253,102,214,0.7%,15.2%,8.4%,0.0%,33.7%,13.6%,28.5%
 2016,31015,Edmonds School District,Snohomish,3353,Meadowdale Middle School,Middle,69.1,751,3,95,48,1,365,98,141,0.4%,12.6%,6.4%,0.1%,48.6%,13.0%,18.8%
 2016,17415,Kent School District,King,4356,Neely O Brien Elementary School,Elementary,77.4,751,2,142,114,0,117,117,259,0.3%,18.9%,15.2%,0.0%,15.6%,15.6%,34.5%
@@ -585,7 +585,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,31103,Monroe School District,Snohomish,1777,Sky Valley Education Center,Other,25.3,939,5,16,9,0,808,49,52,0.5%,1.7%,1.0%,0.0%,86.0%,5.2%,5.5%
 2016,17403,Renton School District,King,3280,Dimmitt Middle School,Middle,76.6,944,5,259,250,0,106,76,248,0.5%,27.4%,26.5%,0.0%,11.2%,8.1%,26.3%
 2016,31002,Everett School District,Snohomish,4334,Heatherwood Middle School,Middle,63.5,947,3,175,29,0,520,83,137,0.3%,18.5%,3.1%,0.0%,54.9%,8.8%,14.5%
-2016,17408,Auburn School District,King,4462,Mt Baker Middle School,Middle,68.9,949,4,83,53,1,400,88,320,0.4%,8.7%,5.6%,0.1%,42.1%,9.3%,33.7%
+2016,17408,Auburn School District,King,4462,Mt. Baker Middle School,Middle,68.9,949,4,83,53,1,400,88,320,0.4%,8.7%,5.6%,0.1%,42.1%,9.3%,33.7%
 2016,31002,Everett School District,Snohomish,3253,Evergreen Middle School (Everett),Middle,63.1,957,4,96,40,0,515,61,241,0.4%,10.0%,4.2%,0.0%,53.8%,6.4%,25.2%
 2016,31006,Mukilteo School District,Snohomish,4231,Explorer Middle School,Middle,70.6,961,5,150,44,1,319,67,375,0.5%,15.6%,4.6%,0.1%,33.2%,7.0%,39.0%
 2016,17405,Bellevue School District,King,3283,Tyee Middle School,Middle,62.5,971,0,489,12,0,318,102,50,0.0%,50.4%,1.2%,0.0%,32.7%,10.5%,5.1%
@@ -614,7 +614,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17401,Highline School District,King,2325,Highline High School,High,71.0,"1,250",13,178,96,2,324,90,547,1.0%,14.2%,7.7%,0.2%,25.9%,7.2%,43.8%
 2016,17403,Renton School District,King,3741,Lindbergh Senior High School,High,76.0,"1,256",13,351,221,0,391,55,225,1.0%,27.9%,17.6%,0.0%,31.1%,4.4%,17.9%
 2016,17409,Tahoma School District,King,4556,Tahoma Jr High,Middle,42.5,"1,261",6,60,25,4,941,114,111,0.5%,4.8%,2.0%,0.3%,74.6%,9.0%,8.8%
-2016,31025,Marysville School District,Snohomish,5213,Marysville Pilchuck High School,High,61.7,"1,268",68,52,24,1,723,150,250,5.4%,4.1%,1.9%,0.1%,57.0%,11.8%,19.7%
+2016,31025,Marysville School District,Snohomish,5213,Marysville-Pilchuck High School,High,61.7,"1,268",68,52,24,1,723,150,250,5.4%,4.1%,1.9%,0.1%,57.0%,11.8%,19.7%
 2016,17411,Issaquah School District,King,3962,Liberty Sr High School,High,52.2,"1,285",5,211,24,0,851,68,126,0.4%,16.4%,1.9%,0.0%,66.2%,5.3%,9.8%
 2016,31004,Lake Stevens School District,Snohomish,5099,Cavelero Mid High School,High,44.0,"1,295",7,47,26,1,949,108,157,0.5%,3.6%,2.0%,0.1%,73.3%,8.3%,12.1%
 2016,31015,Edmonds School District,Snohomish,3303,Mountlake Terrace High School,High,64.0,"1,296",12,155,65,0,718,194,152,0.9%,12.0%,5.0%,0.0%,55.4%,15.0%,11.7%
@@ -624,14 +624,14 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17216,Enumclaw School District,King,3330,Enumclaw Sr High School,High,32.3,"1,396",22,9,9,0,1135,52,169,1.6%,0.6%,0.6%,0.0%,81.3%,3.7%,12.1%
 2016,31401,Stanwood-Camano School District,Snohomish,2581,Stanwood High School,High,26.4,"1,404",14,11,14,0,1198,62,105,1.0%,0.8%,1.0%,0.0%,85.3%,4.4%,7.5%
 2016,17210,Federal Way School District,King,3766,Decatur High School,High,74.9,"1,407",7,143,210,1,529,160,357,0.5%,10.2%,14.9%,0.1%,37.6%,11.4%,25.4%
-2016,17417,Northshore School District,Snohomish,4208,Woodinville HS,High,42.9,"1,407",1,119,19,0,1044,96,128,0.1%,8.5%,1.4%,0.0%,74.2%,6.8%,9.1%
+2016,17417,Northshore School District,Snohomish,4208,Woodinville High School,High,42.9,"1,407",1,119,19,0,1044,96,128,0.1%,8.5%,1.4%,0.0%,74.2%,6.8%,9.1%
 2016,31015,Edmonds School District,Snohomish,3755,Lynnwood High School,High,72.8,"1,429",3,298,99,4,606,174,245,0.2%,20.9%,6.9%,0.3%,42.4%,12.2%,17.1%
 2016,31002,Everett School District,Snohomish,2126,Everett High School,High,56.1,"1,460",21,100,72,0,918,81,268,1.4%,6.8%,4.9%,0.0%,62.9%,5.5%,18.4%
 2016,17400,Mercer Island School District,King,3029,Mercer Island High School,High,46.6,"1,464",7,302,20,0,1023,58,54,0.5%,20.6%,1.4%,0.0%,69.9%,4.0%,3.7%
 2016,17414,Lake Washington School District,King,3771,Juanita High,High,60.2,"1,467",2,221,47,1,865,124,207,0.1%,15.1%,3.2%,0.1%,59.0%,8.5%,14.1%
 2016,17408,Auburn School District,King,5037,Auburn Mountainview High School,High,62.8,"1,488",8,140,136,2,844,112,246,0.5%,9.4%,9.1%,0.1%,56.7%,7.5%,16.5%
 2016,17415,Kent School District,King,4492,Kentlake High School,High,60.7,"1,501",9,118,97,6,884,145,242,0.6%,7.9%,6.5%,0.4%,58.9%,9.7%,16.1%
-2016,17417,Northshore School District,Snohomish,3492,Inglemoor HS,High,56.6,"1,504",5,244,29,0,936,111,179,0.3%,16.2%,1.9%,0.0%,62.2%,7.4%,11.9%
+2016,17417,Northshore School District,Snohomish,3492,Inglemoor High School,High,56.6,"1,504",5,244,29,0,936,111,179,0.3%,16.2%,1.9%,0.0%,62.2%,7.4%,11.9%
 2016,17405,Bellevue School District,King,3588,Interlake Senior High School,High,70.3,"1,590",2,527,47,0,623,140,251,0.1%,33.1%,3.0%,0.0%,39.2%,8.8%,15.8%
 2016,17408,Auburn School District,King,4474,Auburn Riverside High School,High,67.1,"1,594",11,166,87,1,783,134,412,0.7%,10.4%,5.5%,0.1%,49.1%,8.4%,25.8%
 2016,17414,Lake Washington School District,King,2739,Lake Washington High,High,51.3,"1,595",4,170,29,1,1075,113,203,0.3%,10.7%,1.8%,0.1%,67.4%,7.1%,12.7%
@@ -643,7 +643,7 @@ School Year,District Code,District Name,County,School Code,School Name,TYPE,INDE
 2016,17401,Highline School District,King,3279,Mount Rainier High School,High,74.5,"1,637",11,223,190,2,605,149,457,0.7%,13.6%,11.6%,0.1%,37.0%,9.1%,27.9%
 2016,17408,Auburn School District,King,2795,Auburn Senior High School,High,70.9,"1,640",50,104,122,6,692,170,496,3.0%,6.3%,7.4%,0.4%,42.2%,10.4%,30.2%
 2016,17417,Northshore School District,Snohomish,3106,Bothell High School,High,56.6,"1,650",15,224,50,3,1037,121,200,0.9%,13.6%,3.0%,0.2%,62.8%,7.3%,12.1%
-2016,31015,Edmonds School District,Snohomish,3123,Edmonds Woodway High School,High,66.7,"1,655",12,238,106,1,866,203,229,0.7%,14.4%,6.4%,0.1%,52.3%,12.3%,13.8%
+2016,31015,Edmonds School District,Snohomish,3123,Edmonds-Woodway High School,High,66.7,"1,655",12,238,106,1,866,203,229,0.7%,14.4%,6.4%,0.1%,52.3%,12.3%,13.8%
 2016,31016,Arlington School District,Snohomish,2523,Arlington High School,High,33.7,"1,666",26,32,23,1,1341,51,192,1.6%,1.9%,1.4%,0.1%,80.5%,3.1%,11.5%
 2016,31103,Monroe School District,Snohomish,4528,Monroe High School,High,44.0,"1,669",14,47,8,0,1209,96,295,0.8%,2.8%,0.5%,0.0%,72.4%,5.8%,17.7%
 2016,17414,Lake Washington School District,King,4439,Eastlake High School,High,44.0,"1,682",5,202,20,1,1232,116,106,0.3%,12.0%,1.2%,0.1%,73.2%,6.9%,6.3%

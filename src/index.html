@@ -17,7 +17,10 @@
     <responsive-child>
       <div class="outer" ng-cloak ng-controller="diversityController">
         <div class="title">How racially diverse is your school?</div>
-        <div class="chatter">This tool ranks every public school in King and Snohomish counties by &ldquo;diversity index&rdquo; &mdash; a calculation used here to measure, on a scale from 0 to 100, the probability that two randomly chosen students are of a different race.</div>
+        <div class="chatter">
+          This tool ranks public schools* in King and Snohomish counties by &ldquo;diversity index&rdquo; &mdash; a calculation used here to measure, on a scale from 0 to 100, the probability that two randomly chosen students are of a different race.
+          <div class="note">*Includes schools with at least 25 students.</div>
+        </div>
 
         <div class="input"><input ng-model="level" type="radio" name="level" value="all" id="all"> <label class="radio" for="all">All</label></div>
         <div class="input"><input ng-model="level" type="radio" name="level" value="elementary" id="elementary"> <label class="radio" for="elementary">Elementary</label></div>
@@ -103,7 +106,7 @@
             </div>
             Pacific Islander 
             <div>
-              <div class="bar" ng-class="{thin: selectedSchool['PIPerc'] == '0.0%'}" ng-style="width: selectedSchool['PIPerc'], background: '#4abe9d'}"></div><div ng-if="selectedSchool['PIPerc'] !== '0.0%'" class="percent">{{selectedSchool['PIPerc']}}</div>
+              <div class="bar" ng-class="{thin: selectedSchool['PIPerc'] == '0.0%'}" ng-style="{width: selectedSchool['PIPerc'], background: '#4abe9d'}"></div><div ng-if="selectedSchool['PIPerc'] !== '0.0%'" class="percent">{{selectedSchool['PIPerc']}}</div>
               <div class="zero percent" ng-if="selectedSchool['PIPerc'] == '0.0%'">--</div>
             </div>
           </div>
