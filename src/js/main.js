@@ -18,7 +18,7 @@ var getColor = function(d) {
 app.controller("diversityController", ["$scope", function($scope) {
   $scope.all = districtData;
 
-  $scope.districts = { "all": [], "elementary": [], "middle": [], "high": [], "other": [] };
+  $scope.districts = { "all": ["All"], "elementary": ["All"], "middle": ["All"], "high": ["All"], "other": ["All"] };
 
   $scope.all.forEach(function(s) {
     var type = s["TYPE"].toLowerCase().split(" ");
@@ -47,6 +47,10 @@ app.controller("diversityController", ["$scope", function($scope) {
 
   var changeLevel = function() {
     var level = $scope.level;
+
+    if ($scope.districts[level].indexOf($scope.selectedDistrict) < 0) {
+      $scope.selectedDistrict = $scope.districts[level][0];
+    }
 
     $scope.districtsShown = $scope.districts[level];
 

@@ -116,10 +116,10 @@ body {
   margin-top: 10px;
 
   &.right {
-    padding-right: 6px;
+    padding-right: 10px;
   }
   &.left {
-    padding-left: 6px;
+    padding-left: 10px;
   }
 }
 
@@ -195,6 +195,10 @@ body {
   padding: 20px 25px;
   background: @df-off-white;
   border: 1px solid @df-border-gray;
+
+  @media @mobile {
+    padding: 10px 15px;
+  }
 }
 
 .source {
